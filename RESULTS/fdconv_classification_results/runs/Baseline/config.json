@@ -1,0 +1,16 @@
+{
+  "variant": "Baseline",
+  "num_classes": 100,
+  "batch_size": 100,
+  "accum_steps": 1,
+  "micro_batch_size": 100,
+  "num_epochs": 10,
+  "lr": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 0.0001,
+  "warmup_epochs": 1,
+  "kernel_num": 4,
+  "seed": 42,
+  "device": "cuda",
+  "total_wall_time_min": 0.0
+}

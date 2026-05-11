@@ -1,0 +1,11 @@
+{
+  "variant": "Baseline",
+  "lr": 0.02,
+  "batch_size": 8,
+  "num_epochs": 12,
+  "kernel_num": 64,
+  "max_norm": 5.0,
+  "seed": 42,
+  "use_amp": true,
+  "pretrained": true
+}

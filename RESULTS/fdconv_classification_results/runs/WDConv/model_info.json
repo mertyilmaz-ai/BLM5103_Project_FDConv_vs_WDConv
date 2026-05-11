@@ -1,0 +1,151 @@
+{
+  "variant": "WDConv",
+  "total_params": 11782790,
+  "total_params_M": 11.783,
+  "trainable_params": 11782790,
+  "trainable_params_M": 11.783,
+  "replaced_layers": [
+    {
+      "name": "conv1",
+      "in_ch": 3,
+      "out_ch": 64,
+      "kernel_size": 3,
+      "mode": "pass-through"
+    },
+    {
+      "name": "layer1.0.conv1",
+      "in_ch": 64,
+      "out_ch": 64,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer1.0.conv2",
+      "in_ch": 64,
+      "out_ch": 64,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer1.1.conv1",
+      "in_ch": 64,
+      "out_ch": 64,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer1.1.conv2",
+      "in_ch": 64,
+      "out_ch": 64,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer2.0.conv1",
+      "in_ch": 64,
+      "out_ch": 128,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer2.0.conv2",
+      "in_ch": 128,
+      "out_ch": 128,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer2.0.downsample.0",
+      "in_ch": 64,
+      "out_ch": 128,
+      "kernel_size": 1,
+      "mode": "full"
+    },
+    {
+      "name": "layer2.1.conv1",
+      "in_ch": 128,
+      "out_ch": 128,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer2.1.conv2",
+      "in_ch": 128,
+      "out_ch": 128,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer3.0.conv1",
+      "in_ch": 128,
+      "out_ch": 256,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer3.0.conv2",
+      "in_ch": 256,
+      "out_ch": 256,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer3.0.downsample.0",
+      "in_ch": 128,
+      "out_ch": 256,
+      "kernel_size": 1,
+      "mode": "full"
+    },
+    {
+      "name": "layer3.1.conv1",
+      "in_ch": 256,
+      "out_ch": 256,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer3.1.conv2",
+      "in_ch": 256,
+      "out_ch": 256,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer4.0.conv1",
+      "in_ch": 256,
+      "out_ch": 512,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer4.0.conv2",
+      "in_ch": 512,
+      "out_ch": 512,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer4.0.downsample.0",
+      "in_ch": 256,
+      "out_ch": 512,
+      "kernel_size": 1,
+      "mode": "full"
+    },
+    {
+      "name": "layer4.1.conv1",
+      "in_ch": 512,
+      "out_ch": 512,
+      "kernel_size": 3,
+      "mode": "full"
+    },
+    {
+      "name": "layer4.1.conv2",
+      "in_ch": 512,
+      "out_ch": 512,
+      "kernel_size": 3,
+      "mode": "full"
+    }
+  ],
+  "full_dynamic_layers": 19,
+  "passthrough_layers": 1
+}

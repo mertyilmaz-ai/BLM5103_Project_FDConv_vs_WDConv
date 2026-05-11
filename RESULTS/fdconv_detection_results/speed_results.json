@@ -1,0 +1,14 @@
+{
+  "Baseline": {
+    "fps": 42.2,
+    "vram_gb": 11.38
+  },
+  "FDConv": {
+    "fps": 9.7,
+    "vram_gb": 8.34
+  },
+  "WDConv": {
+    "fps": 7.7,
+    "vram_gb": 8.71
+  }
+}

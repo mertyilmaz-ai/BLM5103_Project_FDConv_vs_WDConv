@@ -1,0 +1,11 @@
+{
+  "variant": "FDConv",
+  "lr": 0.005,
+  "batch_size": 4,
+  "num_epochs": 12,
+  "kernel_num": 64,
+  "max_norm": 5.0,
+  "seed": 42,
+  "use_amp": true,
+  "pretrained": true
+}

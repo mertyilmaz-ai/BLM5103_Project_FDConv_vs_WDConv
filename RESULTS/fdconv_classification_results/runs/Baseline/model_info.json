@@ -1,0 +1,10 @@
+{
+  "variant": "Baseline",
+  "total_params": 11220132,
+  "total_params_M": 11.22,
+  "trainable_params": 11220132,
+  "trainable_params_M": 11.22,
+  "replaced_layers": [],
+  "full_dynamic_layers": 0,
+  "passthrough_layers": 0
+}
